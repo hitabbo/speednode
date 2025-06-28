@@ -9,7 +9,7 @@ jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@v1.8
+      - uses: tgymnich/fork-sync@v2.0
         with:
           owner: zhangkaiitugithub # fork 的上游仓库 user
           repo: passcro
